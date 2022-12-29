@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OnepagePortfolio</title>
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+  <link rel="stylesheet" href="./css/mediaquery.css">
+  <script defer src="./js/index.js"></script>
+</head>
+<body>
+  <!-- bit album -->
+  <div id="wrap">
+
+    <!-- Header -->
+    <header>
+      <div id="headerwrap">
+        <h1><a href="">My Portfolio</a></h1>
+        <nav id="main">
+          <h2 class="hide">mainnav</h2>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Skill</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+          <p id="mainclose">close</p>
+        </nav>
+        <p id="mainicon">icon</p>
+      </div>
+    </header>
+
+    <!-- Article1 Slogun -->
+    <article id="slogun">
+      <h2 class="hide">Slogun</h2>
+      <div id="slogunwrap">
+        <div id="slogunshow">
+          <ul id="slogungall">
+            <li>
+              <p>slogun1</p>
+            </li>
+            <li>
+              <p>slogun2</p>
+            </li>
+            <li>
+              <p>slogun3</p>
+            </li>
+            <li>
+              <p>slogun4</p>
+            </li>
+            <li>
+              <p>slogun5</p>
+            </li>
+          </ul>
+        </div>
+        <ul id="slogunnav">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- Article2 Profile -->
+    <article id="profile">
+      <div id="profilewrap">
+        <h2>About Me</h2>
+        <div id="profilein">
+          <p><img src="./statics/images/icon/people.png" alt="photo"></p>
+          <div id="profileintro">
+            <h3>My Name is BlaBla</h3>
+            <p id="char">This is my Character</p>
+            <p id="detail">This is my detail</p>
+          </div>
+        </div>
+        <p><button>Hear me?</button></p>
+      </div>
+    </article>
+
+
+    <!-- Article3 Technology -->
+    <article id="skill">
+      <div id="skillwrap">
+        <h2>My Skill</h2>
+        <p>This is my Skill</p>
+        <div id="skilldetail">
+          <p>This is my skill for front-end web develop</p>
+          <ul id="skilllist">
+            <li><img src="./statics/images/icon/html5.png" alt="HTML"></li>
+            <li><img src="./statics/images/icon/css3.png" alt="CSS"></li>
+            <li><img src="./statics/images/icon/javascript.png" alt="Javascript"></li>
+            <li><img src="./statics/images/icon/jquery.png" alt="Jquery"></li>
+            <li><img src="./statics/images/icon/vue.png" alt="Vue"></li>
+            <li><img src="./statics/images/icon/react.png" alt="React"></li>
+            <li><img src="./statics/images/icon/typescript.png" alt="Typescript"></li>
+            <li><img src="./statics/images/icon/git.png" alt="Git"></li>
+            <li><img src="./statics/images/icon/npm.png" alt="NPM"></li>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <!-- Article4 Portfolio  -->
+
+    <article id="portfolio">
+      <div id="portfoliowrap">
+        <h2>Mywork</h2>
+
+        <div id="portintro">
+          <h3>Feeling something for my develop</h3>
+          <p>plz look at my work for web-develop</p>
+        </div>
+
+        <ul id="sort">
+          <li>HTML</li>
+          <li>Javascript</li>
+          <li>Vue</li>
+          <li>React</li>
+        </ul>
+
+        <div id="portshow">
+          <ul id="portgall">
+            <li>
+              <figure>
+                <img src="./statics/images/pic01.png" alt="">
+                <figcaption>work01</figcaption>
+              </figure>
+            </li>
+
+            <li>
+              <figure>
+                <img src="./statics/images/pic02.png" alt="">
+                <figcaption>work02</figcaption>
+              </figure>
+            </li>
+
+            <li>
+              <figure>
+                <img src="./statics/images/pic03.png" alt="">
+                <figcaption>work03</figcaption>
+              </figure>
+            </li>
+
+            <li>
+              <figure>
+                <img src="./statics/images/pic02.png" alt="">
+                <figcaption>work04</figcaption>
+              </figure>
+            </li>
+
+            <li>
+              <figure>
+                <img src="./statics/images/pic04.png" alt="">
+                <figcaption>work05</figcaption>
+              </figure>
+            </li>
+
+            <li>
+              <figure>
+                <img src="./statics/images/pic01.png" alt="">
+                <figcaption>work06</figcaption>
+              </figure>
+            </li>
+          </ul>
+          
+        </div>
+        <p id="next">next</p>
+        <p id="prev">prev</p>
+      </div>
+
+      <!-- Modal -->
+      <div id="modal">
+        <p id="modalclose">close</p>
+        <div id="modalwrap">
+          <h3>WorkName</h3>
+          <div id="modalcont">
+            <figure>
+              <img src="./statics/images/pic02.png" alt="work">
+              <figcaption class="hide">work</figcaption>
+            </figure>
+            <dl>
+              <dt>MakingDate</dt>
+              <dd>XXXX.XX.XX</dd>
+              <dt>Program</dt>
+              <dd>HTML, CSS, Javascript</dd>
+              <dt>URL</dt>
+              <dd><a href="">http</a></dd>
+              <dt>Introduction</dt>
+              <dd>this is my work</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Article5 Contact -->
+    <article id="contact">
+      <div id="contactwrap">
+        <h2>Contact</h2>
+        <div id="content">
+          <div id="mine">
+            <h3>Have u any PJ?</h3>
+            <p>get in touch my one</p>
+            <ul>
+              <li><span>icon</span>
+                <dl>
+                  <dt>OpenTalk by Kakao</dt>
+                  <dd>OOO</dd>
+                </dl>
+              </li>
+
+              <li><span>icon</span>
+                <dl>
+                  <dt>Email</dt>
+                  <dd>eundoe92@proton.me</dd>
+                </dl>
+              </li>
+
+              <li><span>icon</span>
+                <dl>
+                  <dt>Phone</dt>
+                  <dd>+82)010-7367-7679</dd>
+                </dl>
+              </li>
+            </ul>
+          </div>
+
+          <div id="contactform">
+            <form action="">
+              <fieldset>
+                <ul>
+
+                  <li>
+                    <label for="uname">Name</label>
+                    <input id="uname" type="text">
+                  </li>
+
+                  <li>
+                    <label for="uemail">Email</label>
+                    <input id="uemail" type="email">
+                  </li>
+
+                  <li>
+                    <label for="uphone">Phone</label>
+                    <input id="uphone" type="phone">
+                  </li>
+
+                  <li>
+                    <label for="umessage">Message</label>
+                    <textarea name="umessage" id="umessage" cols="30" rows="10"></textarea>
+                  </li>
+                </ul>
+
+                <p><button type="submit">SUBMIT</button></p>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Aside subnav topkey -->
+    <aside>
+      <h2 class="hide">aside</h2>
+      <nav id="sub">
+        <h2 class="hide">subnav</h2>
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+        </ul>
+      </nav>
+      <p>TOP</p>
+    </aside>
+
+    <footer>
+      <div id="footerwrap">
+        <ul id="sns">
+          <li>GIT</li>
+          <li>Instagram</li>
+          <li>Discord</li>
+        </ul>
+        <small>Copyright &copy; 2022 C2D Portfolio</small>
+      </div>
+    </footer>
+    
+  </div>
+
+</body>
+</html>
