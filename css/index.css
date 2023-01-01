@@ -56,6 +56,7 @@ header>div#headerwrap>h1>a{
 
 header>div#headerwrap>nav#main{
   width: 44.11764705882353%;
+  opacity: 1;
   /* width: 600px; */
 }
 
@@ -132,20 +133,20 @@ article#slogun>div#slogunwrap>div#slogunshow>ul#slogungall>li{
   width: 20%;
   height: 100%;
   position: relative;
-  background: url(../statics/images/green.jpg) center no-repeat ;
+  background: url(../static/images/green.jpg) center no-repeat ;
 }
 
 article#slogun>div#slogunwrap>div#slogunshow>ul#slogungall>li:nth-child(2){
-  background: url(../statics/images/pink.jpg) center no-repeat;
+  background: url(../static/images/pink.jpg) center no-repeat;
 }
 article#slogun>div#slogunwrap>div#slogunshow>ul#slogungall>li:nth-child(3){
-  background: url(../statics/images/blue.jpg) center no-repeat;
+  background: url(../static/images/blue.jpg) center no-repeat;
 }
 article#slogun>div#slogunwrap>div#slogunshow>ul#slogungall>li:nth-child(4){
-  background: url(../statics/images/green.jpg) center no-repeat;
+  background: url(../static/images/green.jpg) center no-repeat;
 }
 article#slogun>div#slogunwrap>div#slogunshow>ul#slogungall>li:nth-child(5){
-  background: url(../statics/images/purple.jpg) center no-repeat;
+  background: url(../static/images/purple.jpg) center no-repeat;
 }
 
 article#slogun>div#slogunwrap>div#slogunshow>ul#slogungall>li>p{
@@ -205,7 +206,7 @@ div#profilewrap>div#profilein>p{
   /* width: 29.41176470588235%; */
   width: 400px;
   height: 400px;
-  background: url(../statics/images/icon/people.png) center no-repeat;
+  background: url(../static/images/icon/people.png) center no-repeat;
   margin: 0 25px;
 }
 
@@ -382,6 +383,7 @@ article#portfolio>div#portfoliowrap>div#portshow>ul#portgall>li{
   width: 26%; 
   box-sizing: border-box;
   /* width: 440px;  */
+  margin: 0 5px;
   text-align: center;
   margin-bottom: 40px;
 }
