@@ -21,7 +21,6 @@ div#wrap{
   position: absolute;
   display: none;
 }
-
 /* articlediv 1360px */
 
 /* Header */
@@ -380,10 +379,10 @@ article#portfolio>div#portfoliowrap>div#portshow>ul#portgall{
 }
 
 article#portfolio>div#portfoliowrap>div#portshow>ul#portgall>li{
-  width: 26%; 
+  width: 33%; 
   box-sizing: border-box;
   /* width: 440px;  */
-  margin: 0 5px;
+  padding: 0 5px;
   text-align: center;
   margin-bottom: 40px;
 }
